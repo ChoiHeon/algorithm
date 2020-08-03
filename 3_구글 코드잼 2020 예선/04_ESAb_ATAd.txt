@@ -1,0 +1,112 @@
+// 10번 쿼리를 던진 후에 4가지 케이스를 통해 비트가 변경됨
+// 10번 쿼리를 던질 동안, 반대편과 "같은" 혹은 "다른" 위치를 저장
+// 비트가 임의로 변경된 후(11st, 21st, 31st, .....) "같은" 위치의 비트와 "다른"비트가 어떻게 변했는지를 통해 
+// 이미 쿼리를 통해 확인한 비트들을 어떻게 변화시켜야 하는지를 알 수 있음
+
+#include <algorithm>
+#include <array>
+#include <bitset>
+#include <cassert>
+#include <climits>
+#include <cmath>
+#include <complex>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <ctime>
+#include <deque>
+#include <functional>
+#include <iostream>
+#include <map>
+#include <queue>
+#include <random>
+#include <set>
+#include <sstream>
+#include <string>
+#include <tgmath.h>
+#include <tuple>
+#include <unordered_map>
+#include <vector>
+using namespace std;
+
+typedef long long int lli;
+typedef pair<int, int> pii;
+typedef pair<lli, lli> plli;
+// typedef unsigned char byte;
+#define byte unsigned char
+typedef unsigned int uint;
+typedef unsigned long long int ulli;
+
+int bit_array[500];
+
+int request(int x) {
+    printf("%d\n", x);
+    fflush(stdout);
+    int t;
+    scanf("%d", &t);
+    return t;
+}
+
+int main() {
+    int t, B;
+    scanf("%d%d", &t, &B);
+    for (int tc=1; tc<=t; ++tc) {
+        memset(bit_array, -1, sizeof(int) * (B + 1));
+        int diffbit = -1, samebit = -1;
+        int pos = 1;
+        for (int c=1; c<=15; ++c) {
+        	if (pos > B / 2) break;
+	// 둘 다 -1일 경우 nothing 이라는 뜻
+            int k = diffbit >= 0 || samebit >= 0 ? 4 : 5;
+            int a = -1, b = -1;
+            if (diffbit >= 0 && samebit >= 0) {
+                a = request(diffbit);
+                b = request(samebit);
+            } else if (diffbit >= 0) {
+                a = request(diffbit);
+                a = request(diffbit);
+            } else if (samebit >= 0) {
+                b = request(samebit);
+                b = request(samebit);
+            }
+            int todo = 0;
+            if (a >= 0 && a != bit_array[diffbit]) { // inverted or reversed
+                todo |= 2;
+            }
+            if (b >= 0 && b != bit_array[samebit]) { // both or inverted
+                todo |= 1;
+            }
+            if (todo == 3 || todo == 1) {
+                for (int i=1; i<=B; ++i) {
+                    if (bit_array[i] >= 0) {
+                        bit_array[i] = !bit_array[i];
+                    }
+                }
+            }
+            if (todo == 2 || todo == 1) {
+                reverse(bit_array+1, bit_array+B+1);
+            }
+            while (k--) {
+                bit_array[pos] = request(pos);
+                bit_array[B - pos + 1] = request(B - pos + 1);
+                if (samebit < 0 && bit_array[pos] == bit_array[B - pos + 1]) {
+                    samebit = pos;
+                }
+                if (diffbit < 0 && bit_array[pos] != bit_array[B - pos + 1]) {
+                    diffbit = pos;
+                }
+                ++pos;
+            }
+        }
+        for (int i=1; i<=B; ++i) {
+            putchar('0' | bit_array[i]);
+        }
+        putchar('\n');
+        fflush(stdout);
+        char s[2];
+        scanf("%s", s);
+        if (s[0] != 'Y') break;
+    }
+    return 0;
+}
+
