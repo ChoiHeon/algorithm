@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f15c0dd-842e-4ac4-af50-581157800658" name="Default Changelist" comment="" />
+    <list default="true" id="2f15c0dd-842e-4ac4-af50-581157800658" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_백준/84_통나무 자르기.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_백준/84_통나무 자르기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_2019 카카오 신입 개발자 블라인드 채용 1차 코딩 테스트/2_실패율.py" beforeDir="false" afterPath="$PROJECT_DIR$/5_2019 카카오 신입 개발자 블라인드 채용 1차 코딩 테스트/2_실패율.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +21,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../알고리즘 공부/example2.py" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="algorithm" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="algorithm" />
+      </console-settings>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -29,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.example2">
+  <component name="RunManager" selected="Python.example">
     <configuration name="소수구하기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.example2" />
         <item itemvalue="Python.example" />
+        <item itemvalue="Python.example2" />
         <item itemvalue="Python.소수구하기" />
       </list>
     </recent_temporary>
