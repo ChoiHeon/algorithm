@@ -2,126 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f15c0dd-842e-4ac4-af50-581157800658" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트/01_신규 아이디 추천.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트/02_메뉴 리뉴얼.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트/03_순위 검색.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트/04_합승 택시 요금.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트/05_광고 삽입.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트/05_광고 삽입_시간초과.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트/06_카드 짝 맞추기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트/07_매출 하락 최소화.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_코딩테스트 연습1/0_문제목록.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_코딩테스트 연습1/1_N으로 표현.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_코딩테스트 연습1/2_지형 이동(시간초과).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_코딩테스트 연습1/3_징검다리.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_삼성 SW 역량 테스트 기출 문제/1. 구슬 탈출2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_삼성 SW 역량 테스트 기출 문제/10_치킨 배달.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_삼성 SW 역량 테스트 기출 문제/2_뱀.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_삼성 SW 역량 테스트 기출 문제/3_주사위 굴리기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_삼성 SW 역량 테스트 기출 문제/4_테트로미노.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_삼성 SW 역량 테스트 기출 문제/5_연구소.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_삼성 SW 역량 테스트 기출 문제/6_경사로.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_삼성 SW 역량 테스트 기출 문제/7.톱니바퀴.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_삼성 SW 역량 테스트 기출 문제/8_감시.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_삼성 SW 역량 테스트 기출 문제/9_드래곤 커브.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_NHN 코딩테스트 기출문제/1번.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/01_PICNIC.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/02_FESTIVAL.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/03_BOGGLE.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/04_1_LIS.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/04_2_LIS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/05_QUADTREE.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/06_FENCE.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/07_FANMEETING_fail.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/08_JUMPGAME.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/09_WILDCARD.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/10_TRIANGLEPATH.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/11_JLIS_fail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/12_QUANTIZE_timeover.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/13_TRIPATHCNT.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/14_NUMB3RS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_알고스팟/15_ITES_timeover.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/16_BKACKJACK.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/17_01타일.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/18_계단오르기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/19_쉬운계단수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/20_연속합.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/21_포도주시식.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/22_정수삼각형.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/23_회의실배정.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/24_동전1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/25_행렬곱셈순서.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/26_상근이의여행.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/27_군형잡힌세상.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/28_검문.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/29_승부예측_실패.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/30_숫자의합.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/31_단어공부.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/32_단어의개수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/33_손익분기점.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/34_FlyMeToTheAlphaCentauri.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/35_소수구하기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/36_바이러스.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/37_단지번호붙이기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/38_유기농배추.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/38_정리.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/39_이친수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/40_LCS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/41_상금헌터.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/42_ITES.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/43_RGB거리.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/44_미로찾기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/45_연산자끼워넣기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/46_인형들.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/47_스타트와링크.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/48_절대값힙.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/49_집합의표현.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/50_가운데를말해요.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/51_여행가자.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/52_분해합.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/53_ATM.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/54_공항.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/55_친구네트워크.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/56_최단경로(메모리초과).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/56_최단경로(메모리초과2).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/56_최단경로(힙을 이용한 다익스트라 알고리즘).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/57_최소비용구하기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/58_설탕배달.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/59_숏코딩(실패).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/60_타임머신(벨만포드알고리즘1).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/60_타임머신(벨만포드알고리즘2).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/61_특정한최단경로.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/62_미확인도착지.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/63_트리의부모찾기(DFS).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/63_트리의부모찾기(재귀).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/64_트리의지름.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/65_트리순회(숏코딩).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/65_트리순회.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/66_트리의순회.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/67_최소스패닝트리(MST).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/68_우주신과의교감.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/69_요세푸스문제0.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/70_카카오페이(숏코딩).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/70_카카오페이.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/71_파일합치기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/72-내리막길(시간초과 주의).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/73_앱(1).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/73_앱(2).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/74_플로이드.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/75_팰린드롬_물음표.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/76_집합.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/77_외판원 순회.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/78_박성원.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/79_RGB거리2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/80_색상환.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/81_수찾기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/82_숫자카드2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/83_랜선자르기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/84_통나무 자르기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_백준/85_줄 세우기 (위상정렬).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_구글 코드잼 2020 예선/01_vesigium.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_구글 코드잼 2020 예선/02_nesting_depth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_구글 코드잼 2020 예선/03_parenting_partnering_returns.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_구글 코드잼 2020 예선/04_ESAb_ATAd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_2020 카카오 신입 개발자 블라인드 채용 1차 코딩 테스트/00_문제 목록.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_2019 카카오 신입 개발자 블라인드 채용 1차 코딩 테스트/0_문제 목록.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_2019 카카오 신입 개발자 블라인드 채용 1차 코딩 테스트/0_파이썬 정규 표현식.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_구글 코드잼 2019 예선/0_문제 목록.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_2019 카카오 개발자 겨울 인턴십/0_문제 목록.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_2020 카카오 인턴십/0_문제 목록.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,13 +18,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YU3a9cMu3DGoccFfjsNiMKVj91" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../알고리즘 공부/example2.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -145,6 +45,11 @@
         <option name="myModuleName" value="algorithm" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chlgj\Desktop\algorithm\14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,8 +63,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.example">
-    <configuration name="지형 이동_실패" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.07_매출 하락 최소화">
+    <configuration name="05_광고 삽입 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_프로그래머스" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_프로그래머스/지형 이동_실패.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트/05_광고 삽입.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="소수구하기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="06_카드 짝 맞추기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/소수구하기.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\chlgj\Desktop\algorithm\14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트\06_카드 짝 맞추기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="여행가자" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="07_매출 하락 최소화" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/여행가자.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_2021 카카오 신입 개발자 블라인트 채용 1차 코딩 테스트/07_매출 하락 최소화.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,7 +155,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../알고리즘 공부" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -266,13 +171,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.07_매출 하락 최소화" />
         <item itemvalue="Python.example" />
         <item itemvalue="Python.example2" />
-        <item itemvalue="Python.지형 이동_실패" />
-        <item itemvalue="Python.소수구하기" />
+        <item itemvalue="Python.06_카드 짝 맞추기" />
+        <item itemvalue="Python.05_광고 삽입 (1)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -298,6 +205,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="339" height="735" key="GridCell.Tab.0.bottom" timestamp="1612257021955">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="339" height="735" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1612257021955" />
+    <state width="339" height="735" key="GridCell.Tab.0.center" timestamp="1612257021955">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="339" height="735" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1612257021955" />
+    <state width="339" height="735" key="GridCell.Tab.0.left" timestamp="1612257021955">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="339" height="735" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1612257021955" />
+    <state width="339" height="735" key="GridCell.Tab.0.right" timestamp="1612257021955">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="339" height="735" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1612257021955" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
