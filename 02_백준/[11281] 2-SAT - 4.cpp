@@ -1,78 +1,107 @@
-﻿// problem: 2-SAT - 4
-// link : https ://www.acmicpc.net/problem/11281
+﻿// https://www.acmicpc.net/problem/11281
 
 #include <iostream>
+#include <memory.h>
 #include <vector>
 #include <stack>
+#include <set>
 #include <algorithm>
 
-#define rep(i,n) for(int i=0;i<n;++i)
-#define REP(i,n) for(int i=1;i<=n;++i)
-#define FAST cin.tie(NULL);cout.tie(NULL); ios::sync_with_stdio(false)
+
 using namespace std;
 
-#define t(x) (x<<1)
-#define f(x) (x<<1|1)
-#define W(x) (x>0?t(x-1):f(-(x+1)))
+const int MAX = 20002;
 
-int N, M, u, v, order, id;
+int id = 0;
+int sid = 1;
+int sccId[MAX];
+int nodeId[MAX];
+bool finished[MAX];
+vector<int> edges[MAX];
+stack<int> s;
 
-vector<vector<int>> adj;
-vector<int> discovered, sccid;
-stack<int> st;
-void OR(int u, int v) {
-	adj[W(u) ^ 1].emplace_back(W(v));
-	adj[W(v) ^ 1].emplace_back(W(u));
+
+int notX(int x)		{ return x ^ 1; }
+int trueX(int x)	{ return x << 1; }
+int falseX(int x)	{ return x << 1 | 1; }
+
+int dfs(int x) {
+	int parent = ++id;
+	nodeId[x] = parent;
+	s.push(x);
+
+	for (int y : edges[x]) {
+		if (nodeId[y] == -1)
+			parent = min(parent, dfs(y));
+		else if (!finished[y])
+			parent = min(parent, nodeId[y]);
+	}
+
+	if (parent == nodeId[x]) {
+		while (true) {
+			int t = s.top();  s.pop();
+			sccId[t] = sid;
+			finished[t] = true;
+			if (t == x)  break;
+		}
+
+		++sid;
+	}
+
+	return parent;
 }
 
-int scc(int here) {
-	int ret = discovered[here] = order++;
-	st.emplace(here);
-	for (auto there : adj[here]) {
-		if (discovered[there] == -1) ret = min(ret, scc(there));
-		else if (sccid[there] == -1) ret = min(ret, discovered[there]);
+void two_SAT() {
+	int n, m;
+	cin >> n >> m;
+	memset(nodeId, -1, sizeof(nodeId));
+	memset(finished, 0, sizeof(finished));
+
+	for (int i = 0; i < m; ++i) {
+		int x, y;
+		cin >> x >> y;
+
+		x = x < 0 ? falseX(-x) : trueX(x);
+		y = y < 0 ? falseX(-y) : trueX(y);
+
+		edges[notX(x)].push_back(y);
+		edges[notX(y)].push_back(x);
 	}
 
-	if (ret == discovered[here]) {
-		while (1) {
-			int t = st.top();
-			st.pop();
-			sccid[t] = id;
-			if (t == here) break;
-		}
-		++id;
+	for (int x = 1; x <= n * 2 + 1; ++x) {
+		if (nodeId[x] == -1)
+			dfs(x);
 	}
-	return ret;
+
+	for (int x = 1; x <= n; ++x) {
+		int x1 = trueX(x);
+		int x2 = falseX(x);
+
+		if (sccId[x1] == sccId[x2]) {
+			cout << "0" << endl;
+			return;
+		}
+	}
+
+	cout << "1\n";
+
+	for (int x = 1; x <= n; ++x) {
+		int x1 = trueX(x);
+		int x2 = falseX(x);
+
+		if (sccId[x1] < sccId[x2])
+			cout << "1 ";
+		else
+			cout << "0 ";
+	}
 }
 
 int main() {
-	FAST;
+	ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	cout.tie(nullptr);
 
-	cin >> N >> M;
-	adj.resize(N << 1);
-	rep(i, M) {
-		cin >> u >> v;
-		OR(u, v);
-	}
-	discovered = sccid = vector<int>(N << 1, -1);
-	rep(i, N << 1) if (discovered[i] == -1) scc(i);
+	two_SAT();
 
-	bool flag = 1;
-
-	rep(i, N) if (sccid[t(i)] == sccid[f(i)]) {
-		flag = 0;
-		break;
-	}
-
-	cout << flag << '\n';
-
-	if (flag) {
-		rep(i, N) {
-			if (sccid[t(i)] < sccid[f(i)])
-				cout << 1 << ' ';
-			else
-				cout << 0 << ' ';
-		}
-	}
 	return 0;
 }
